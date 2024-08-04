@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* filter: blur(2px); */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* border: 5px solid black; */
+    background-image: url(netflixBGI.PNG);
+    backdrop-filter: blur(4px);
+    height: 100vh;
+}
+.header {
+    display: flex;
+    flex-basis: 10%;
+    background-color: cadetblue;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: transparent;
+}
+img {
+    width: 150px;
+}
+.btn {
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    align-self: center;
+    font-family: "Oswald", sans-serif;
+    border-radius: 15px;
+    transform: scale(1);
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: #c21717;
+    color: white;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 140px;
+    /* justify-content: space-around; */
+    height: 60vh;
+    /* flex-grow: 1; */
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1px;
+    
+    
+    
+}
+h1 {
+    color: white;
+    word-spacing: 5px;
+    font-size: 60px;
+    /* border: 1px solid black; */
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+}
+
+p {
+    color: white;
+    /* border: 1px solid black; */
+}
+
+input {
+    width: 500px;
+    height: 50px;
+    align-self: center;
+    background: rgba(58, 58, 58, 0.5);
+    color: white;
+    text-align: center;
+}
+
+.get-started {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    align-self: center;
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: #c21717;
+    color: white;
+    font-size: 20px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    border-radius: 15px;
+
+}
+
+
+.get-started:hover {
+    width: 400px;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
